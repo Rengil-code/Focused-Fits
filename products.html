@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    /*  Back Home */
+    .back-home {
+      width: 100%;
+      display: flex;
+      justify-content: center;  
+      padding: 10px 0;
+      background-color: #222;  
+    }
+
+    .back-home a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 8px 20px;
+      border-radius: 6px;
+      background-color: black;
+      transition: 0.3s;
+    }
+
+    .back-home a:hover {
+      background-color: #444;
+    }
+
+    /* лого */
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .logo img {
+      width: 200px;
+      height: auto;
+      display: block;
+    }
+
+    /* фото */
+    .cars {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px; 
+      margin-bottom: 30px;
+    }
+
+    .cars img {
+      width: 90%; 
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+  </style>
+  <link rel="stylesheet" crossorigin href="./assets/mobile-Cc9-nDSm.css">
+</head>
+<body>
+
+  <!-- кнопка Back Home -->
+  <div class="back-home">
+      <a href="./mobile.html">Back Home</a>
+  </div>
+
+  <!--лого -->
+  <div class="logo">
+      <img src="logo.png" alt="Logo">
+  </div>
+
+  <!-- фотографии -->
+  <main>
+    <div class="cars">
+      <img src="pro1.png" alt="Auto 1">
+      <img src="pro2.png" alt="Auto 2">
+      <img src="pro3.png" alt="Auto 3">
+    </div>
+  </main>
+
+  <script src="./mobile.js"></script>
+</body>
+</html>

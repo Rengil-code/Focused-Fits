@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    /* Кнопка Back Home */
+    .back-home {
+      width: 100%;
+      display: flex;
+      justify-content: center;  
+      padding: 10px 0;
+      background-color: #222;  
+    }
+
+    .back-home a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 8px 20px;
+      border-radius: 6px;
+      background-color: black;
+      transition: 0.3s;
+    }
+
+    .back-home a:hover {
+      background-color: #444;
+    }
+
+    /* лого */
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .logo img {
+      width: 200px;
+      height: auto;
+      display: block;
+    }
+
+    /* фокти */
+    .cars {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px; /* отступ между картинками */
+      margin-bottom: 30px;
+    }
+
+    .cars img {
+      width: 90%;  /* под размер контента страницы */
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+  </style>
+  <link rel="stylesheet" crossorigin href="./assets/mobile-Cc9-nDSm.css">
+</head>
+<body>
+
+  <!-- Кнопка Back Home -->
+  <div class="back-home">
+      <a href="./mobile.html">Back Home</a>
+  </div>
+
+  <!-- Логотип -->
+  <div class="logo">
+      <img src="logo.png" alt="Logo">
+  </div>
+
+  <!-- основа -->
+  <main>
+    <div class="cars">
+      <img src="co1.png" alt="Auto 1">
+      <img src="co2.png" alt="Auto 2">
+      <img src="co3.png" alt="Auto 3">
+    </div>
+  </main>
+
+  <script src="./mobile.js"></script>
+</body>
+</html>
